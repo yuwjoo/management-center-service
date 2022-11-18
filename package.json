@@ -7,7 +7,7 @@
   "license": "ISC",
   "scripts": {
     "serve": "nodemon src",
-    "build": "webpack"
+    "build": "webpack --progress"
   },
   "_moduleAliases": {
     "@": "./src"
@@ -16,6 +16,7 @@
     "node_modules"
   ],
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "module-alias": "^2.2.2",
     "nodemon": "^2.0.20",
     "webpack": "^5.75.0",
