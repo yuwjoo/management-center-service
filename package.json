@@ -6,11 +6,11 @@
   "author": "YH",
   "license": "ISC",
   "scripts": {
-    "serve": "nodemon ./src/index.js",
+    "serve": "nodemon src",
     "build": "webpack"
   },
   "_moduleAliases": {
-    "@": "src"
+    "@": "./src"
   },
   "_moduleDirectories": [
     "node_modules"
