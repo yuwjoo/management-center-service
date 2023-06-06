@@ -1,0 +1,9 @@
+{
+    "name": "超凡蜘蛛侠",
+    "version": "0.1.0",
+    "description": "对网络上的资源进行爬取和整合",
+    "title": "超凡蜘蛛侠",
+    "url": "/api",
+    "sampleUrl": "http://127.0.0.1:7070/api",
+    "withGenerator": false
+}

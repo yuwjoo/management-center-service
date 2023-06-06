@@ -1,0 +1,54 @@
+// m3u8文件地址 (可以直接请求)
+url: https://valipl.cp31.ott.cibntv.net/6572C07469932715D95732507/030006000062A9BA7AABA86457BC38BCDD7D2D-283A-4A55-91D3-AF465ECE6AE5.m3u8
+method: get
+params: 
+{
+    ccode: 0502
+    duration: 1354
+    expire: 18000
+    psid: 9980dc6ddf7eb4cdf42e68524cbfd0b341346
+    ups_client_netip: 78eb7670
+    ups_ts: 1683207964
+    ups_userid: 
+    utid: GKXaHGXbUWICAXjrdnA6qyPr
+    vid: XMjg2NjY0OTM2
+    vkey: B53bda4b06bfff557515c7397a8c5190f
+    s: 48ba3a685ab411e5b432
+    eo: 0
+    t: cf9e7c8194c9a93
+    cug: 1
+    fms: 4495f07a986146ca
+    tr: 1354
+    le: 3b023d1ed9591ee6822796a4144d800d
+    ckt: 5
+    m_onoff: 0
+    rid: 2000000073EDE62A1E0AE69B0CAD66A698FC7E3902000000
+    type: mp4hdv3
+    bc: 2
+    dre: u37
+    si: 73
+    dst: 1
+    sm: 1
+    operate_type: 1
+}
+
+
+// 这个js会包含m3u8文件地址（jsonp请求）
+url: https://acs.youku.com/h5/mtop.youku.play.ups.appinfo.get/1.1/
+method: GET
+params: 
+{
+    jsv: 2.6.1
+    appKey: 24679788
+    t: 1683208806043
+    sign: a1059e16666e2fbe9225c7da77e77a1e
+    api: mtop.youku.play.ups.appinfo.get
+    v: 1.1
+    timeout: 15000
+    AntiFlood: true
+    AntiCreep: true
+    type: jsonp
+    dataType: jsonp
+    callback: mtopjsonp1
+    data: {"steal_params":"{\"ccode\":\"0502\",\"utid\":\"GKXaHGXbUWICAXjrdnA6qyPr\",\"version\":\"9.2.82\",\"ckey\":\"140#n6XoTMqDzzPDfQo23xz+4pN8s77BNasX8KaJ9XqN9f2WHlrZQjr/F0BuBzG5VgSvwVs486hqzzn0dOgmzQ2zzW8QbHVqlQzx2DD3VthqzFH+25TuLDzxzDrbL8/qlbrzLQlSyHmijDapVrsMUN+7rzs+/IxX5Pb9V6w0vUNs4cm+sMnR03+dDsJMKvlpF0dielR49B7JK3fr8rJL3rzawhZQcnCim2If8tD3IHvuKXW61x2TWhaV7vOU3O7JMdcqwOSNDc9ogQDA1Mu4gyvgxqHMcPcdzz1uqIibct2MzXcOTnqno3RSucOMo4rlASUbdZcuyXKS7c8EWPVLBT/S+V0RjBULzrfnID9itZ/d7yJv+wVb2Db5NrmTGTYbESG9a1eJ29AZI99yJJaUhAFxduMV2N0M8WaBtl77CjEmZj/xyjOxYFyJmtKrDIZkQRjC1z5TGr7lRheRA3lEMICCdD2fKELfBMqxUn9C77WfTazuiPs59x5m/B0eP339MaOd3bWjVK/H3x4lfSHqeBTJXoXJYefoTgVW99V1JhwUBx50H4xaMB/DIhOXDmEPxMr3CjG4ZfppZUk6tuQqg8dcgGpo4PqIj9SoLXslqjktGoq/PR3fB0GFJhXm11AhiMm6WOPQBEt5JWz+bu6fuDi/iJKRJsdT10F+8JRsk4zb64UueCAYgfMx3qpzzkYNJ7qzzot1KM+2Ai0+YgQDXh/fqpBNTh1+g3NswxvSBPPfQfIYY3kPEnsTe90kOFX2LlaXTNoTWyx8/lDX+Yas1B8QUPdIHgo/uYMxoTmc/zBQKXfjXCY+Nj2iIEKNHV6/2XdrQ0u8IWMTY5jMi708tC4tMtXHQCcVJrbvqqYrR4TJmE7AorQvo4Yh6WSoBS3q8RT0prqCxvJvvTUapuuJW8b=\",\"client_ip\":\"192.168.1.1\",\"client_ts\":1683208806}","biz_params":"{\"vid\":\"XMjg2NjY0OTM2\",\"h265\":0,\"current_showid\":\"300825\",\"preferClarity\":-1,\"media_type\":\"standard,subtitle\",\"app_ver\":\"9.2.82\",\"extag\":\"EXT-X-PRIVINF\",\"play_ability\":16782592,\"master_m3u8\":1,\"local_vid\":\"XMjg2NjY0OTM2\",\"local_time\":1683207992,\"skh\":1,\"start_point_ms\":10331,\"last_clarity\":-1}","ad_params":"{\"vs\":\"1.0\",\"pver\":\"9.2.82\",\"sver\":\"2.0\",\"site\":1,\"aw\":\"w\",\"fu\":0,\"d\":\"0\",\"bt\":\"pc\",\"os\":\"win\",\"osv\":\"10\",\"dq\":\"auto\",\"atm\":\"\",\"partnerid\":\"null\",\"wintype\":\"interior\",\"isvert\":0,\"vip\":0,\"emb\":\"\",\"p\":1,\"rst\":\"mp4\",\"needbf\":2,\"avs\":\"1.0\"}"}
+}
